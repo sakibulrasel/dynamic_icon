@@ -8,6 +8,7 @@ class DynamicIcons {
   // Return Icon Based on Given Icon Name
   static double sizes = 20;
   static dynamic getIconFromName(String name, {double size = 20}) {
+    sizes = size;
     return iconList[name];
   }
 
@@ -1330,9 +1331,9 @@ class DynamicIcons {
     'circle_rounded':Icon(Icons.circle_rounded,size:sizes),
     'circle_sharp':Icon(Icons.circle_sharp,size:sizes),
     'class_':Icon(Icons.class_,size:sizes),
-    'class__outlined':Icon(Icons.class__outlined,size:sizes),
-    'class__rounded':Icon(Icons.class__rounded,size:sizes),
-    'class__sharp':Icon(Icons.class__sharp,size:sizes),
+    'class_outlined':Icon(Icons.class_outlined,size:sizes),
+    'class_rounded':Icon(Icons.class_rounded,size:sizes),
+    'class_sharp':Icon(Icons.class_sharp,size:sizes),
     'clean_hands':Icon(Icons.clean_hands,size:sizes),
     'clean_hands_outlined':Icon(Icons.clean_hands_outlined,size:sizes),
     'clean_hands_rounded':Icon(Icons.clean_hands_rounded,size:sizes),
@@ -6646,10 +6647,10 @@ class DynamicIcons {
     'sip_outlined':Icon(Icons.sip_outlined,size:sizes),
     'sip_rounded':Icon(Icons.sip_rounded,size:sizes),
     'sip_sharp':Icon(Icons.sip_sharp,size:sizes),
-    'six__ft_apart':Icon(Icons.six__ft_apart,size:sizes),
-    'six__ft_apart_outlined':Icon(Icons.six__ft_apart_outlined,size:sizes),
-    'six__ft_apart_rounded':Icon(Icons.six__ft_apart_rounded,size:sizes),
-    'six__ft_apart_sharp':Icon(Icons.six__ft_apart_sharp,size:sizes),
+    'six_ft_apart':Icon(Icons.six_ft_apart,size:sizes),
+    'six_ft_apart_outlined':Icon(Icons.six_ft_apart_outlined,size:sizes),
+    'six_ft_apart_rounded':Icon(Icons.six_ft_apart_rounded,size:sizes),
+    'six_ft_apart_sharp':Icon(Icons.six_ft_apart_sharp,size:sizes),
     'six_k':Icon(Icons.six_k,size:sizes),
     'six_k_outlined':Icon(Icons.six_k_outlined,size:sizes),
     'six_k_plus':Icon(Icons.six_k_plus,size:sizes),
