@@ -7,9 +7,39 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 class DynamicIcons {
   // Return Icon Based on Given Icon Name
   static double sizes = 20;
-  static dynamic getIconFromName(String name, {double size = 20}) {
+
+  static Widget? getIconFromName(String name, {
+    Color? color,
+    Key? key,
+    String? semanticLabel,
+    List<Shadow>? shadows,
+    double size = 20,
+    TextDirection? textDirection
+  }) {
     sizes = size;
-    return iconList[name];
+    Widget? icon = iconList[name];
+
+    if (icon.runtimeType == Icon) {
+      icon = Icon((icon as Icon).icon,
+        color: color,
+        key: key,
+        semanticLabel: semanticLabel,
+        shadows: shadows,
+        size: size,
+        textDirection: textDirection,
+      )
+    } else if (icon.runtimeType == FaIcon) {
+      icon = FaIcon((icon as FaIcon).icon,
+        color: color,
+        key: key,
+        semanticLabel: semanticLabel,
+        shadows: shadows,
+        size: size,
+        textDirection: textDirection,
+      )
+    }
+
+    return icon;
   }
 
   static Map<String, dynamic> iconList = {
