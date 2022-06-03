@@ -12,7 +12,6 @@ class DynamicIcons {
     Color? color,
     Key? key,
     String? semanticLabel,
-    List<Shadow>? shadows,
     double size = 20,
     TextDirection? textDirection
   }) {
@@ -24,7 +23,6 @@ class DynamicIcons {
         color: color,
         key: key,
         semanticLabel: semanticLabel,
-        shadows: shadows,
         size: size,
         textDirection: textDirection,
       )
@@ -33,7 +31,6 @@ class DynamicIcons {
         color: color,
         key: key,
         semanticLabel: semanticLabel,
-        shadows: shadows,
         size: size,
         textDirection: textDirection,
       )
