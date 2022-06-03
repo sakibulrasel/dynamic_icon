@@ -25,7 +25,7 @@ class DynamicIcons {
         semanticLabel: semanticLabel,
         size: size,
         textDirection: textDirection,
-      )
+      );
     } else if (icon.runtimeType == FaIcon) {
       icon = FaIcon((icon as FaIcon).icon,
         color: color,
@@ -33,7 +33,7 @@ class DynamicIcons {
         semanticLabel: semanticLabel,
         size: size,
         textDirection: textDirection,
-      )
+      );
     }
 
     return icon;
