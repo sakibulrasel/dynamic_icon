@@ -1,16 +1,16 @@
 name: dynamic_icons
 description: Insert Material Icon and FontAwesome icons dynamically in Flutter app when the icons are not known at compile time.
-version: 0.0.2
+version: 1.0.0
 homepage: https://github.com/sakibulrasel/dynamic_icon
 
 environment:
-  sdk: ">=2.16.1 <3.0.0"
-  flutter: ">=1.17.0"
+  sdk: '>=3.4.1 <4.0.0'
+  flutter: '>=3.3.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  font_awesome_flutter: ^10.1.0
+  font_awesome_flutter: ^10.7.0
 
 
 dev_dependencies:
