@@ -18,14 +18,12 @@ The version of font_awesome icons we use is: 10.7.0
 
 ## Features
 
-[//]: # (<!-- TODO: List what your package can do. Maybe include images, gifs, or videos. -->)
-1. With this package you can show a icon from string. you just need to pass the icon name while using this package.
+1. With this package you can show a icon from string. 
+2. Need to pass the icon name while using this package.
 
 
 ## Getting started
 
-[//]: # (<!-- TODO: List prerequisites and provide or point to information on how to -->)
-[//]: # (<!-- start using the package. -->)
 1. first add dynamic_icons pacakge in your pubspec.yml file
 2. then you need to import the package import 'package:dynamic_icons/dynamic_icons.dart';
 3. then just call DynamicIcons.getIconFromName("icon_name",30) first parameter is icon name and second one is icon size which is optional.
